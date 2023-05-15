@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en" title="Coding design">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, no-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>F1 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+    <main class="table">
+         {{>navbar}}
+        <section class="table__header">
+            <h1>Tabla de Pilotos</h1>
+            <div class="input-group">
+                <input type="search" placeholder="Buscar escuderia...">
+                <img src="img/search.png" alt="">
+            </div>
+            <div class="export__file">
+                <label for="export-file" class="export__file-btn" title="Export File"></label>
+                <input type="checkbox" id="export-file">
+                <div class="export__file-options">
+
+                </div>
+            </div>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        
+                        
+                        <th> Piloto <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Puesto <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Carrera <span ></span></th>
+                        <th>  <span ></span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                   
+                    {{#each arregloPuestos}}
+                    <tr>
+                        <td>{{this.piloto}}</td>
+                        <td>{{this.puesto}}</td>
+                        <td>{{this.carrera}}</td>
+                    </tr>
+                    {{/each}}
+                    
+
+
+                </tbody>
+               
+            </table>
+        </section>
+
+    </main>
+        
+
+</body>
+   
+
+</html>
+
+
+
+
+
+
+<!-- falta hacer esta parte  punto 2 del pdf-->

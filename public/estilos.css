@@ -1,0 +1,65 @@
+body {
+    background-image: url(/views/img/2180256.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-tabla {
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    margin: 0px;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 0px;
+}
+
+.subtitulo-tabla {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+}
+
+.linea-tabla {
+    margin-top: 30px;
+    padding: 1px;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    background: linear-gradient(90deg, rgb(220 219 224) 0%, rgb(186, 186, 195) 35%, rgb(85 177 196) 100%);
+    border-radius: 10px;
+    filter: opacity(0.4);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    color: black;
+}
+
+.encabezados {
+    background: linear-gradient(90deg, rgb(220 219 224) 0%, rgb(236, 236, 240) 35%, rgb(244, 246, 246) 100%);
+    margin-top: auto;
+}
+
+
+/* 
+table, th, td{
+    border-collapse: collapse;
+} */
+
+.bandera {
+    width: 50px;
+}
+
+.pilotos {
+    color: white;
+    width: 80px;
+    margin: 10px;
+}
+
+.posicion {
+    text-align: center;
+    color: yellow;
+}
